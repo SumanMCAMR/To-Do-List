@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.app-screen {
+  width: 52%;
+  height: 50%;
+  align-items: center;
+  background-color: aqua;
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+}
+.app-screen label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.data-entry button {
+  width: 10rem;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+.data-entry input[type="text"] {
+  width: 30%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.data-show {
+  width: 90%;
+  height: 70%;
+  padding: 10px;
+  margin: auto auto;
+  font-size: 1.5rem;
+  font-style: italic;
+  text-decoration: none;
+  font-stretch: expanded;
+}
+.delete-button {
+  width: 5rem;
+  height: 2rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 5rem;
+}
+
+#clearall {
+  width: 10rem;
+  height: 4rem;
+  padding: 5px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  top: 280px;
+  left: 270px;
+  background-color: #ccc;
+  cursor: pointer;
+  position: absolute;
+  font-size: 1rem;
+  font-weight: bold;
+}
